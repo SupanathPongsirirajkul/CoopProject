@@ -1,4 +1,4 @@
-Screen1 As screen:
+LoginScreen As screen:
 
     Label1 As label:
         Text: ="Hello world"
