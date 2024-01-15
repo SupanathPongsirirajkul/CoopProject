@@ -3,24 +3,32 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
+    "Group1": 23,
+    "Group2": 24,
     "Host": 3,
-    "Image1": 11,
+    "Icon1": 20,
+    "Icon2": 21,
+    "Icon3": 22,
+    "Image1": 15,
+    "Image1_1": 17,
     "Label1": 5,
-    "Label2": 20,
-    "Label2_1": 21,
-    "LoginScreen": 6,
-    "RegisterScreen": 7,
-    "SigninButton": 8,
-    "SigninButton_1": 17,
-    "SigninButton_2": 19,
-    "SignupButton": 9,
-    "TextInput1": 15,
-    "TextInput1_1": 16,
+    "Label2": 11,
+    "Label2_1": 12,
+    "Label3": 18,
+    "Label4": 19,
+    "LoginScreen": 8,
+    "RegisterScreen": 16,
+    "SigninButton": 6,
+    "SigninButton_1": 13,
+    "SigninButton_2": 14,
+    "SignupButton": 7,
+    "TextInput1": 9,
+    "TextInput1_1": 10,
     "WelcomeScreen": 4
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/15/2024 03:00:00",
+  "HeaderLastSavedDateTimeUTC": "01/15/2024 08:07:45",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -28,27 +36,46 @@
     "พี่แนน": "ad8d0ae8-8006-4d57-a409-2adcacabf3b9.png"
   },
   "LocalResourceRootPaths": {
-    "พี่แนน": "https://docserverpwaprodeas.blob.core.windows.net/ecadf2f3-e206-4d0e-a559-f971b16cfe04-1/resource/3eff26d3-f50a-4628-b425-5d92bbbe6c19.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-01-15T02%3A56%3A39Z&ske=2024-01-16T03%3A11%3A39Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-01-16T03%3A11%3A39Z&sr=b&sp=r&sig=ULeAuIwa%2FAt9ieG81q%2BzueWNBBJYF1CFpNpHfyST8%2FA%3D"
+    "พี่แนน": "https://docserverpwaprodseas.blob.core.windows.net/9ef3a663-baf0-43b1-93d8-36becfbbc374-1/resource/Assets0Images0ad8d0ae8-8006-4d57-a409-2adcacabf3b9.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-01-15T04%3A41%3A33Z&ske=2024-01-16T04%3A56%3A33Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-01-16T04%3A56%3A33Z&sr=b&sp=r&sig=iwVrNWAWYdq01pEu%2FQAYHWrb1P9%2Bcx6YMF054qpdV1g%3D"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {},
-  "OrderGroupControls": {},
+  "OrderGroupControls": {
+    "Group1": {
+      "Icon1": 1,
+      "TextInput1": 0
+    },
+    "Group2": {
+      "Icon2": 2,
+      "Icon3": 1,
+      "TextInput1_1": 0
+    }
+  },
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
     "button": 1,
-    "image": 3,
+    "icon": 4,
+    "image": 2,
     "label": 0,
-    "text": 2
+    "text": 3
   },
   "OverridablePropertiesEntry": {
     "App": {},
+    "Group1": {},
+    "Group2": {},
     "Host": {},
+    "Icon1": {},
+    "Icon2": {},
+    "Icon3": {},
     "Image1": {},
+    "Image1_1": {},
     "Label1": {},
     "Label2": {},
     "Label2_1": {},
+    "Label3": {},
+    "Label4": {},
     "LoginScreen": {},
     "RegisterScreen": {},
     "SigninButton": {},
@@ -63,19 +90,27 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
+    "Group1": 6,
+    "Group2": 10,
     "Host": 0,
+    "Icon1": 7,
+    "Icon2": 12,
+    "Icon3": 11,
     "Image1": 3,
+    "Image1_1": 16,
     "Label1": 0,
-    "Label2": 0,
-    "Label2_1": 0,
+    "Label2": 4,
+    "Label2_1": 8,
+    "Label3": 17,
+    "Label4": 13,
     "LoginScreen": 0,
     "RegisterScreen": 0,
     "SigninButton": 1,
-    "SigninButton_1": 1,
-    "SigninButton_2": 1,
+    "SigninButton_1": 14,
+    "SigninButton_2": 15,
     "SignupButton": 2,
-    "TextInput1": 0,
-    "TextInput1_1": 0,
+    "TextInput1": 5,
+    "TextInput1_1": 9,
     "WelcomeScreen": 0
   },
   "ResourcesJsonIndices": {
@@ -85,14 +120,15 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0696999,
+    "AnalysisLoadTime": 0.1450365,
     "ControlCount": {
       "button": 4,
-      "label": 2,
+      "image": 2,
+      "label": 3,
       "screen": 3,
-      "text": 1
+      "text": 2
     },
-    "DeserializationLoadTime": 0.7885977
+    "DeserializationLoadTime": 0.8094268
   },
   "WasLocalDatabaseReferencesEmpty": false
 }

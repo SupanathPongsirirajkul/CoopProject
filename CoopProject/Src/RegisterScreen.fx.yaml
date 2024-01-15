@@ -1,2 +1,16 @@
 RegisterScreen As screen:
 
+    Image1_1 As image:
+        Height: =768
+        Width: =414
+        ZIndex: =1
+
+    Label3 As label:
+        Height: =72
+        Size: =40
+        Text: ="Registration"
+        Width: =331
+        X: =516
+        Y: =88
+        ZIndex: =2
+

@@ -12,6 +12,7 @@ WelcomeScreen As screen:
 
     SigninButton As button:
         Height: =62
+        OnSelect: =Navigate(LoginScreen)
         Text: ="Sign in"
         X: =441
         Y: =498
@@ -19,6 +20,7 @@ WelcomeScreen As screen:
 
     SignupButton As button:
         Height: =62
+        OnSelect: =Navigate(RegisterScreen)
         Text: ="Sign up"
         X: =765
         Y: =498
