@@ -1,8 +1,58 @@
 LoginScreen As screen:
+    BackgroundImage: =
+    ImagePosition: =ImagePosition.Center
 
-    Label1 As label:
-        Text: ="Hello world"
-        X: =40
-        Y: =40
+    Image1 As image:
+        Height: =768
+        Width: =414
         ZIndex: =1
+
+    TextInput1 As text:
+        Default: ="Text input"
+        Height: =60
+        HintText: ="Please enter Username or E-mail"
+        Italic: =true
+        Width: =410
+        X: =645
+        Y: =243
+        ZIndex: =2
+
+    TextInput1_1 As text:
+        Default: ="Text input"
+        Height: =60
+        HintText: ="Please enter Password"
+        Italic: =true
+        Mode: =TextMode.Password
+        Width: =410
+        X: =645
+        Y: =404
+        ZIndex: =3
+
+    SigninButton_1 As button:
+        Height: =62
+        Text: ="Login"
+        X: =645
+        Y: =551
+        ZIndex: =4
+
+    SigninButton_2 As button:
+        Height: =62
+        Text: ="Cancel"
+        X: =884
+        Y: =551
+        ZIndex: =5
+
+    Label2 As label:
+        Text: ="Username / Email"
+        Width: =209
+        X: =645
+        Y: =185
+        ZIndex: =6
+
+    Label2_1 As label:
+        Text: ="Password"
+        Width: =209
+        X: =645
+        Y: =350
+        ZIndex: =7
 

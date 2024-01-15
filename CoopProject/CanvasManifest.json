@@ -113,7 +113,6 @@
     "FileID": "67b3f8e1-841a-4d04-8bba-969ea5f64556",
     "Id": "67b3f8e1-841a-4d04-8bba-969ea5f64556",
     "InstrumentationKey": "",
-    "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
     "Name": "TestApp",
     "OriginatingVersion": "1.336",
@@ -132,8 +131,8 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
+    "WelcomeScreen",
     "LoginScreen",
-    "HomeScreen",
-    "Screen3"
+    "RegisterScreen"
   ]
 }

@@ -1,0 +1,26 @@
+WelcomeScreen As screen:
+
+    Label1 As label:
+        Align: =Align.Center
+        Height: =208
+        Size: =40
+        Text: ="Welcome to Cash advance application"
+        Width: =1084
+        X: =177
+        Y: =243
+        ZIndex: =1
+
+    SigninButton As button:
+        Height: =62
+        Text: ="Sign in"
+        X: =441
+        Y: =498
+        ZIndex: =2
+
+    SignupButton As button:
+        Height: =62
+        Text: ="Sign up"
+        X: =765
+        Y: =498
+        ZIndex: =3
+
